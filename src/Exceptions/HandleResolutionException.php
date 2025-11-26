@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialDept\Resolver\Exceptions;
+namespace SocialDept\AtpResolver\Exceptions;
 
 class HandleResolutionException extends ResolverException
 {

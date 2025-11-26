@@ -18,21 +18,21 @@
     },
     "autoload": {
         "psr-4": {
-            "SocialDept\\Resolver\\": "src/"
+            "SocialDept\\AtpResolver\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SocialDept\\Resolver\\Tests\\": "tests/"
+            "SocialDept\\AtpResolver\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "SocialDept\\Resolver\\ResolverServiceProvider"
+                "SocialDept\\AtpResolver\\ResolverServiceProvider"
             ],
             "aliases": {
-                "Resolver": "SocialDept\\Resolver\\Facades\\Resolver"
+                "Resolver": "SocialDept\\AtpResolver\\Facades\\Resolver"
             }
         }
     }

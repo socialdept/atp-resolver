@@ -1,12 +1,12 @@
 <?php
 
-namespace SocialDept\Resolver\Tests\Unit;
+namespace SocialDept\AtpResolver\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use SocialDept\Resolver\Contracts\DidResolver;
-use SocialDept\Resolver\Data\DidDocument;
-use SocialDept\Resolver\Exceptions\DidResolutionException;
-use SocialDept\Resolver\Resolvers\DidResolverManager;
+use SocialDept\AtpResolver\Contracts\DidResolver;
+use SocialDept\AtpResolver\Data\DidDocument;
+use SocialDept\AtpResolver\Exceptions\DidResolutionException;
+use SocialDept\AtpResolver\Resolvers\DidResolverManager;
 
 class DidResolverManagerTest extends TestCase
 {

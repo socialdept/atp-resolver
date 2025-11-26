@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialDept\Resolver\Facades;
+namespace SocialDept\AtpResolver\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -32,7 +32,7 @@ Think of it as a Swiss Army knife for AT Protocol identity resolution.
 ## Quick Example
 
 ```php
-use SocialDept\Resolver\Facades\Resolver;
+use SocialDept\AtpResolver\Facades\Resolver;
 
 // Resolve a DID to its document
 $document = Resolver::resolveDid('did:plc:ewvi7nxzyoun6zhxrhs64oiz');
@@ -70,7 +70,7 @@ php artisan vendor:publish --tag=resolver-config
 Resolver supports both `did:plc` and `did:web` methods:
 
 ```php
-use SocialDept\Resolver\Facades\Resolver;
+use SocialDept\AtpResolver\Facades\Resolver;
 
 // PLC directory resolution
 $document = Resolver::resolveDid('did:plc:ewvi7nxzyoun6zhxrhs64oiz');
@@ -165,7 +165,7 @@ $pds = Resolver::resolvePds('alice.bsky.social', useCache: false);
 Beacon includes static helper methods to validate DIDs and handles:
 
 ```php
-use SocialDept\Resolver\Support\Identity;
+use SocialDept\AtpResolver\Support\Identity;
 
 // Validate handles
 Identity::isHandle('alice.bsky.social'); // true
@@ -270,8 +270,8 @@ $document->toArray();             // array - Convert to array
 Beacon throws descriptive exceptions when resolution fails:
 
 ```php
-use SocialDept\Resolver\Exceptions\DidResolutionException;
-use SocialDept\Resolver\Exceptions\HandleResolutionException;
+use SocialDept\AtpResolver\Exceptions\DidResolutionException;
+use SocialDept\AtpResolver\Exceptions\HandleResolutionException;
 
 try {
     $document = Resolver::resolveDid('did:invalid:format');
@@ -328,8 +328,8 @@ $profile = [
 ### Input Validation
 
 ```php
-use SocialDept\Resolver\Support\Identity;
-use SocialDept\Resolver\Facades\Resolver;
+use SocialDept\AtpResolver\Support\Identity;
+use SocialDept\AtpResolver\Facades\Resolver;
 
 // Validate user input before resolving
 $actor = request()->input('actor');

@@ -1,12 +1,12 @@
 <?php
 
-namespace SocialDept\Resolver\Resolvers;
+namespace SocialDept\AtpResolver\Resolvers;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
-use SocialDept\Resolver\Contracts\HandleResolver;
-use SocialDept\Resolver\Exceptions\HandleResolutionException;
-use SocialDept\Resolver\Support\Concerns\HasConfig;
+use SocialDept\AtpResolver\Contracts\HandleResolver;
+use SocialDept\AtpResolver\Exceptions\HandleResolutionException;
+use SocialDept\AtpResolver\Support\Concerns\HasConfig;
 
 class AtProtoHandleResolver implements HandleResolver
 {

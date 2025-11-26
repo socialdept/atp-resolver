@@ -1,9 +1,9 @@
 <?php
 
-namespace SocialDept\Resolver\Cache;
+namespace SocialDept\AtpResolver\Cache;
 
 use Illuminate\Contracts\Cache\Repository;
-use SocialDept\Resolver\Contracts\CacheStore;
+use SocialDept\AtpResolver\Contracts\CacheStore;
 
 class LaravelCacheStore implements CacheStore
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace SocialDept\Resolver;
+namespace SocialDept\AtpResolver;
 
-use SocialDept\Resolver\Contracts\CacheStore;
-use SocialDept\Resolver\Contracts\DidResolver;
-use SocialDept\Resolver\Contracts\HandleResolver;
-use SocialDept\Resolver\Data\DidDocument;
-use SocialDept\Resolver\Exceptions\DidResolutionException;
-use SocialDept\Resolver\Exceptions\HandleResolutionException;
-use SocialDept\Resolver\Support\Concerns\HasConfig;
-use SocialDept\Resolver\Support\Identity;
+use SocialDept\AtpResolver\Contracts\CacheStore;
+use SocialDept\AtpResolver\Contracts\DidResolver;
+use SocialDept\AtpResolver\Contracts\HandleResolver;
+use SocialDept\AtpResolver\Data\DidDocument;
+use SocialDept\AtpResolver\Exceptions\DidResolutionException;
+use SocialDept\AtpResolver\Exceptions\HandleResolutionException;
+use SocialDept\AtpResolver\Support\Concerns\HasConfig;
+use SocialDept\AtpResolver\Support\Identity;
 
 class Resolver
 {

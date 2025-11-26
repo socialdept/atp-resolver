@@ -1,14 +1,14 @@
 <?php
 
-namespace SocialDept\Resolver;
+namespace SocialDept\AtpResolver;
 
 use Illuminate\Support\ServiceProvider;
-use SocialDept\Resolver\Cache\LaravelCacheStore;
-use SocialDept\Resolver\Contracts\CacheStore;
-use SocialDept\Resolver\Contracts\DidResolver;
-use SocialDept\Resolver\Contracts\HandleResolver;
-use SocialDept\Resolver\Resolvers\AtProtoHandleResolver;
-use SocialDept\Resolver\Resolvers\DidResolverManager;
+use SocialDept\AtpResolver\Cache\LaravelCacheStore;
+use SocialDept\AtpResolver\Contracts\CacheStore;
+use SocialDept\AtpResolver\Contracts\DidResolver;
+use SocialDept\AtpResolver\Contracts\HandleResolver;
+use SocialDept\AtpResolver\Resolvers\AtProtoHandleResolver;
+use SocialDept\AtpResolver\Resolvers\DidResolverManager;
 
 class ResolverServiceProvider extends ServiceProvider
 {

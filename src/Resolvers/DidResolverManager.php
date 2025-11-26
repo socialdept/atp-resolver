@@ -1,11 +1,11 @@
 <?php
 
-namespace SocialDept\Resolver\Resolvers;
+namespace SocialDept\AtpResolver\Resolvers;
 
-use SocialDept\Resolver\Contracts\DidResolver;
-use SocialDept\Resolver\Data\DidDocument;
-use SocialDept\Resolver\Exceptions\DidResolutionException;
-use SocialDept\Resolver\Support\Concerns\ParsesDid;
+use SocialDept\AtpResolver\Contracts\DidResolver;
+use SocialDept\AtpResolver\Data\DidDocument;
+use SocialDept\AtpResolver\Exceptions\DidResolutionException;
+use SocialDept\AtpResolver\Support\Concerns\ParsesDid;
 
 class DidResolverManager implements DidResolver
 {
