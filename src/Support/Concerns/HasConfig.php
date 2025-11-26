@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialDept\Resolver\Support\Concerns;
+namespace SocialDept\AtpResolver\Support\Concerns;
 
 trait HasConfig
 {

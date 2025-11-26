@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialDept\Resolver\Data;
+namespace SocialDept\AtpResolver\Data;
 
 class DidDocument
 {

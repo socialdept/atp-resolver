@@ -1,9 +1,9 @@
 <?php
 
-namespace SocialDept\Resolver\Tests\Unit;
+namespace SocialDept\AtpResolver\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use SocialDept\Resolver\Support\Identity;
+use SocialDept\AtpResolver\Support\Identity;
 
 class IdentityTest extends TestCase
 {

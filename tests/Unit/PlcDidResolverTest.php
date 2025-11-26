@@ -1,10 +1,10 @@
 <?php
 
-namespace SocialDept\Resolver\Tests\Unit;
+namespace SocialDept\AtpResolver\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use SocialDept\Resolver\Exceptions\DidResolutionException;
-use SocialDept\Resolver\Resolvers\PlcDidResolver;
+use SocialDept\AtpResolver\Exceptions\DidResolutionException;
+use SocialDept\AtpResolver\Resolvers\PlcDidResolver;
 
 class PlcDidResolverTest extends TestCase
 {

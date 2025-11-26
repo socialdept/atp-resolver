@@ -1,8 +1,8 @@
 <?php
 
-namespace SocialDept\Resolver\Contracts;
+namespace SocialDept\AtpResolver\Contracts;
 
-use SocialDept\Resolver\Data\DidDocument;
+use SocialDept\AtpResolver\Data\DidDocument;
 
 interface DidResolver
 {
@@ -12,7 +12,7 @@ interface DidResolver
      * @param  string  $did  The DID to resolve (e.g., "did:plc:abc123" or "did:web:example.com")
      * @return DidDocument
      *
-     * @throws \SocialDept\Resolver\Exceptions\DidResolutionException
+     * @throws \SocialDept\AtpResolver\Exceptions\DidResolutionException
      */
     public function resolve(string $did): DidDocument;
 

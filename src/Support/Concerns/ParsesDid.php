@@ -1,8 +1,8 @@
 <?php
 
-namespace SocialDept\Resolver\Support\Concerns;
+namespace SocialDept\AtpResolver\Support\Concerns;
 
-use SocialDept\Resolver\Exceptions\DidResolutionException;
+use SocialDept\AtpResolver\Exceptions\DidResolutionException;
 
 trait ParsesDid
 {

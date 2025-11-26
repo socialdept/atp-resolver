@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialDept\Resolver\Support;
+namespace SocialDept\AtpResolver\Support;
 
 class Identity
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace SocialDept\Resolver\Tests\Unit;
+namespace SocialDept\AtpResolver\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use SocialDept\Resolver\Exceptions\DidResolutionException;
-use SocialDept\Resolver\Resolvers\WebDidResolver;
+use SocialDept\AtpResolver\Exceptions\DidResolutionException;
+use SocialDept\AtpResolver\Resolvers\WebDidResolver;
 
 class WebDidResolverTest extends TestCase
 {

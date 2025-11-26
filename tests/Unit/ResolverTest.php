@@ -1,13 +1,13 @@
 <?php
 
-namespace SocialDept\Resolver\Tests\Unit;
+namespace SocialDept\AtpResolver\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use SocialDept\Resolver\Contracts\CacheStore;
-use SocialDept\Resolver\Contracts\DidResolver;
-use SocialDept\Resolver\Contracts\HandleResolver;
-use SocialDept\Resolver\Data\DidDocument;
-use SocialDept\Resolver\Resolver;
+use SocialDept\AtpResolver\Contracts\CacheStore;
+use SocialDept\AtpResolver\Contracts\DidResolver;
+use SocialDept\AtpResolver\Contracts\HandleResolver;
+use SocialDept\AtpResolver\Data\DidDocument;
+use SocialDept\AtpResolver\Resolver;
 
 class ResolverTest extends TestCase
 {
